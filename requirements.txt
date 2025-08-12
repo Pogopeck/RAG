@@ -1,9 +1,17 @@
 langchain==0.1.16
 langchain-community==0.0.30
 langchain-core==0.1.43
+langchain-cohere
 cohere
 chromadb
 faiss-cpu  # faiss-cpu for local testing. In production, consider Pinecone/Weaviate.
 PyPDF2
 unstructured[all]
 python-dotenv
+fastapi
+uvicorn[standard]
+python-multipart
+pytest
+streamlit
+presidio-analyzer
+presidio-anonymizer
