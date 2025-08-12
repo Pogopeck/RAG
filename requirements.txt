@@ -1,17 +1,9 @@
-# Core LangChain packages (keep your existing pins)
 langchain==0.1.16
-langchain-core==0.1.43
 langchain-community==0.0.30
-langchain-cohere
-
-# Vector DB / retrieval
+langchain-core==0.1.43
+cohere
 chromadb
 faiss-cpu  # faiss-cpu for local testing. In production, consider Pinecone/Weaviate.
-
-# Document loaders & parsing
 PyPDF2
 unstructured[all]
-
-# Env & web framework
 python-dotenv
-flask  # or fastapi
